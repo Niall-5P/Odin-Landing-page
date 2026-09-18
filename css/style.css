@@ -1,0 +1,84 @@
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  font-weight: 900;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    padding: 16px 32px;
+}
+body {
+  margin: 0;
+  background: #eee;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 48px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 32px;
+  
+}
+
+.info-title {
+    text-align: center;
+}
+
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.illustration {
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  font-weight: 900;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.lefttwo, .righttwo {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.placeholder {
+    display: flex;
+
+}
+.righttwo {
+  background-color: lightgrey;
+  width: 500px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
