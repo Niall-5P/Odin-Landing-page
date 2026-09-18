@@ -1,16 +1,18 @@
 .header {
-  background: white;
+  background: #1F2937;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   font-weight: 900;
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
-    border-bottom: 1px solid #ddd;
+    background: #1F2937;
+    border-bottom: 1px solid #1F2937;
     box-shadow: 0 0 8px rgba(0, 0, 0, .1);
     padding: 16px 32px;
 }
@@ -35,6 +37,7 @@ body {
 .card {
     width: 150px;
     text-align: center;
+    font-size: 18px;
 }
 
 .illustration {
@@ -45,6 +48,7 @@ body {
 
 ul {
   list-style-type: none;
+
 }
 
 .left, .right {
@@ -69,6 +73,8 @@ ul {
     align-items: center;
     align-content: flex-start;
     flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB
 
 }
 .placeholder {
@@ -81,4 +87,41 @@ ul {
   border: 15px;
   padding: 50px;
   margin: 20px;
+}
+
+
+
+.hero-section-one {
+    background-color: #1F2937;
+    font-size: 48px;
+}
+
+.hero-section-two {
+    background-color:#eee
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.bone {
+    background-color: #3882f6;
+}
+
+.btwo {
+    background-color: #3882f6;
+}
+
+.hero-section-two {
+    font-size: 36px;
+    color: #1F2937;
+    weight: 900
+}
+
+.hero-section-three {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    weight: 300;
+    font-style: italic;
 }
