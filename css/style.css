@@ -48,7 +48,15 @@ body {
 
 ul {
   list-style-type: none;
+  text-decoration: none !important;
 
+}
+
+
+.links a {
+    text-decoration: none;
+    font-size: 14px;
+    color:#F9FAF8
 }
 
 .left, .right {
@@ -109,10 +117,14 @@ ul {
 
 .bone {
     background-color: #3882f6;
+    color:#F9FAF8;
+    border-radius: 6px;
 }
 
 .btwo {
     background-color: #3882f6;
+    color:#F9FAF8;
+    border-radius: 6px;
 }
 
 .hero-section-two {
@@ -127,4 +139,25 @@ ul {
     color: #1F2937;
     weight: 300;
     font-style: italic;
+}
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    weight: 300;
+    font-style: italic;
+    padding: 50px 50px 50px 50px
+}
+
+.hero-section-four {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #3882f6;
+    color:#F9FAF8;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 12px;
+    
+
+    
 }
