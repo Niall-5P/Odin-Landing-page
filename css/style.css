@@ -12,9 +12,7 @@
     justify-content: space-between;
     align-items: center;
     background: #1F2937;
-    border-bottom: 1px solid #1F2937;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
-    padding: 16px 32px;
+    padding: 16px max(24px, calc((100% - 1000px) / 2));
 }
 body {
   margin: 0;
@@ -22,7 +20,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .container {
-  padding: 48px;
+  padding: 24px 48px 80px;
   display: flex;
   flex-wrap: nowrap;
   gap: 32px;
@@ -33,6 +31,8 @@ body {
 
 .info-title {
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 
@@ -87,16 +87,31 @@ ul {
     color: #E5E7EB
 
 }
+
+.lefttwo {
+    flex: 1;
+    min-width: 0;
+    max-width: 360px;
+}
+
 .placeholder {
     display: flex;
-
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 0;
+    justify-content: space-between;
 }
 .righttwo {
-  background-color: lightgrey;
-  width: 500px;
-  border: 15px;
-  padding: 50px;
-  margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d747d;
+    width: 500px;
+    height: 180px;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
 }
 
 
@@ -107,7 +122,7 @@ ul {
 }
 
 .hero-section-two {
-    background-color:#eee
+    background-color: #FFFFFF;
 }
 
 .footer {
@@ -119,14 +134,24 @@ ul {
 
 .bone {
     background-color: #3882f6;
-    color:#F9FAF8;
+    color: #F9FAF8;
     border-radius: 6px;
+    border: none;
+    padding: 10px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .btwo {
     background-color: #3882f6;
-    color:#F9FAF8;
+    color: #F9FAF8;
+    border: 2px solid white;
     border-radius: 6px;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .hero-section-two {
@@ -146,9 +171,11 @@ ul {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
-    weight: 300;
+    font-weight: 300;
     font-style: italic;
-    padding: 50px 50px 50px 50px
+    padding: 100px 50px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .hero-section-four {
@@ -157,9 +184,39 @@ ul {
     background-color: #3882f6;
     color:#F9FAF8;
     margin: 50px 50px 50px 50px;
-    padding: 20px 20px 20px 20px;
+    padding: 40px 80px;
     border-radius: 12px;
+    max-width: 1000px;
+    margin: 80px auto;
     
 
     
+}
+
+.lefttwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 12px;
+}
+
+.lefttwo h1,
+.lefttwo p {
+    margin: 0;
+}
+
+.author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.CTA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
